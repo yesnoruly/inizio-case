@@ -3,12 +3,12 @@
   "description": "Parcel starter template",
   "author": "Karvackyy Roma",
   "license": "MIT",
-  "homepage": "https://yesnoruly.github.io/parcel-start",
+  "homepage": "https://yesnoruly.github.io/inizio-case/",
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build src/*.html --public-url /parcel-start/"
+    "build": "parcel build src/*.html --public-url /inizio-case/"
   },
   "devDependencies": {
     "autoprefixer": "latest",
