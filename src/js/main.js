@@ -1,5 +1,5 @@
 import { fetchDataFx } from "./fetchData";
-import { downloadJSON } from "./downloadJson";
+import { downloadJSON } from "./downloadJSON";
 
 const API_KEY = process.env.API_KEY;
 
