@@ -1,0 +1,13 @@
+.item {}
+
+.item__title {
+    color: #1a0dab;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.item__description {
+    color: #545454;
+    font-size: 14px;
+    margin: 5px 0;
+}

@@ -3,7 +3,7 @@
 
 <include src="partials/head.html">
     {
-        "title": "Inizio case"
+    "title": "Inizio case"
     }
 </include>
 
@@ -13,6 +13,22 @@
 
     <main>
 
+        <section class="search-box">
+            <h1 class="search__title">🔍 Custom Search</h1>
+
+            <form class="search__form">
+                <input type="text" class="search__query" placeholder="Enter something...">
+                <button class="search__button" type="submit">Search</button>
+                <button class="search__button search__download" type="button">Download JSON</button>
+            </form>
+        </section>
+
+        <p class="status"></p>
+
+        <section class="results">
+            <ul class="results__list">
+            </ul>
+        </section>
 
     </main>
 
