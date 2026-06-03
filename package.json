@@ -8,6 +8,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
+    "test": "vitest",
     "build": "parcel build src/*.html --public-url /inizio-case/"
   },
   "devDependencies": {
@@ -16,7 +17,8 @@
     "parcel": "latest",
     "postcss": "latest",
     "postcss-import": "latest",
-    "posthtml-include": "latest"
+    "posthtml-include": "latest",
+    "vitest": "^4.1.8"
   },
   "repository": {
     "type": "git",
