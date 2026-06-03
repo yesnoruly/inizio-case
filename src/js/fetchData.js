@@ -11,6 +11,6 @@ export async function fetchDataFx(query, apiKey) {
     return data.organic_results?.map(item => ({
         title: item.title,
         url: item.url,
-        description: item.snippet || item.description || ''
+        snippet: item.snippet || '' 
     })) || []
 }

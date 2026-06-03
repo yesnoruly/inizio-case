@@ -42,7 +42,7 @@ async function handleSearch() {
         resultsContainer.innerHTML = resultsData.map((item, i) => `
             <li class="item">
                 <a class="item__title" href="${item.url}" target="_blank">${i + 1}. ${item.title}</a>
-                <p class="item__description">${item.description}</p>
+                <p class="item__description">${item.snippet}</p>
             </li>
         `).join('');
 
