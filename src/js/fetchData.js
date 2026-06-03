@@ -8,9 +8,12 @@ export async function fetchDataFx(query, apiKey) {
         }
     })
 
-    return data.organic_results?.map(item => ({
-        title: item.title,
-        url: item.url,
-        snippet: item.snippet || '' 
-    })) || []
+    return {
+        results: data.organic_results?.map(item => ({
+            title: item.title,
+            url: item.url,
+            snippet: item.snippet || ''
+        })) || [],
+        raw: data.organic_results
+    }
 }
