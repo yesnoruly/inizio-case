@@ -32,7 +32,7 @@ async function handleSearch() {
     downloadButton.classList.remove('search__download--active')
 
     try {
-        const { results: resultsData, raw: rawData } = await fetchDataFx(query, API_KEY);
+        ({ results: resultsData, raw: rawData } = await fetchDataFx(query, API_KEY))
 
         if (resultsData.length === 0) {
             resultsList.innerHTML = '<li>Nothing found</li>';
