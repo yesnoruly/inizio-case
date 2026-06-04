@@ -9,7 +9,6 @@ A tool for getting the first page of Google search results as data on request
 - Write unit tests for the code
 - Upload and submit work
 
-
 ## Quick start
 
 #### `npm install`:
