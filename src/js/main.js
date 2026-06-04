@@ -50,6 +50,6 @@ async function handleSearch() {
         downloadButton.classList.add('search__download--active')
 
     } catch (err) {
-        resultsList.innerHTML = `<li class="status--error">${err.message}</li>`
+        resultsList.innerHTML = `<li>${err.message}</li>`
     }
 }
