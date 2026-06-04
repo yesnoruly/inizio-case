@@ -3,5 +3,5 @@ let e,t,r,n;var o,i,s,a,l,f,u,c=globalThis;function h(e,t,r,n){Object.defineProp
                 <a class="item__title" href="${e.url}" target="_blank">${t+1}. ${e.title}</a>
                 <p class="item__description">${e.snippet}</p>
             </li>
-        `).join(""),ry.innerHTML=`Loaded ${t.length} results`,rp.classList.add("search__download--active")}catch(e){rd.innerHTML=`<li class="status--error">${e.message}</li>`}}}rc.addEventListener("submit",e=>{e.preventDefault(),rg()}),rp.addEventListener("click",e=>{!function(e="result.json"){let t=new Blob([JSON.stringify(null,null,2)],{type:"application/json"}),r=URL.createObjectURL(t),n=document.createElement("a");n.href=r,n.download=e,n.click(),URL.revokeObjectURL(t)}()});
-//# sourceMappingURL=inizio-case.949c1c6f.js.map
+        `).join(""),ry.innerHTML=`Loaded ${t.length} results`,rp.classList.add("search__download--active")}catch(e){rd.innerHTML=`<li>${e.message}</li>`}}}rc.addEventListener("submit",e=>{e.preventDefault(),rg()}),rp.addEventListener("click",e=>{!function(e="result.json"){let t=new Blob([JSON.stringify(null,null,2)],{type:"application/json"}),r=URL.createObjectURL(t),n=document.createElement("a");n.href=r,n.download=e,n.click(),URL.revokeObjectURL(t)}()});
+//# sourceMappingURL=inizio-case.dfd4add2.js.map
